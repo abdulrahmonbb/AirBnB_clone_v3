@@ -1,8 +1,5 @@
 #!/usr/bin/python3
-"""
-amenities.py
-view for Amenity objects that handles all default RESTFul API actions
-"""
+"""amenities.py"""
 
 from api.v1.views import app_views
 from flask import abort, jsonify, make_response, request
